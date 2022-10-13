@@ -12,12 +12,3 @@ $(".mywork").slick({
   <img src="./assets/icon-arrow-right.svg" alt="arrow-right" />
 </button>`,
 });
-// window.addEventListener("resize", function () {
-//   if (window.matchMedia("(min-width: 991px)").matches) {
-//     this.document.querySelector(".main-grid").classList.add("main-grid-width");
-//   } else {
-//     this.document
-//       .querySelector(".main-grid")
-//       .classList.remove("main-grid-width");
-//   }
-// });
