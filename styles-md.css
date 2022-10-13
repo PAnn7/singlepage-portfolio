@@ -1,0 +1,86 @@
+@media (max-width: 991px) {
+  /* NAVBAR */
+  .navbar .container-fluid {
+    margin: 0;
+  }
+  /* INTRO */
+  body {
+    margin: auto 4.5%;
+  }
+  .intro {
+    padding: 5% 5vw;
+  }
+
+  /* GRID */
+  .main-grid {
+    margin: 0;
+  }
+
+  .last-col {
+    position: relative;
+    padding-top: 1.5vw;
+  }
+  .first-block,
+  .second-block,
+  .third-block {
+    width: 49%;
+  }
+  .second-block {
+    margin: 0;
+  }
+
+  .row-3-2 {
+    position: relative;
+    left: 104%;
+    bottom: 50%;
+  }
+  .third-block-2 {
+    margin: 0;
+    height: 182px;
+    margin-left: 24px;
+  }
+
+  /* .third-block-2 {
+    margin: 0 0 0 24px;
+    height: 182px;
+  }
+  .main-grid {
+    margin: 0;
+  }
+  .main-row {
+    width: 89.5vw;
+  }
+  .main-2-col {
+    padding: 0 0 0 24px;
+  }  */
+  /* PROFILE */
+  .profile-row {
+    margin-top: -15vh;
+    padding-left: 0;
+  }
+  .profile-pic {
+    width: 364px;
+    margin-left: -20%;
+  }
+  .profile-text {
+    padding: 0;
+    margin-right: -10%;
+  }
+  /* MY WORKS */
+  .slick-prev {
+    left: 37vw;
+  }
+  .slick-next {
+    right: 37vw;
+  }
+  /* END-BLOCK */
+  .contact-me {
+    height: fit-content;
+    text-align: center;
+    margin: 15% 0;
+    min-width: 90vw;
+  }
+  .contact-me .button {
+    padding: 3% 0 0;
+  }
+}

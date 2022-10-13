@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,
+    shrink-to-fir=no"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Single-page design portfolio</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles-md.css" />
+    <link rel="stylesheet" href="styles-phone.css" />
+    <!-- SLICk CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="    https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css
+    "
+    />
+  </head>
+
+  <header>
+    <nav class="navbar navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.svg" alt="logo" />
+        </a>
+        <button class="btn btn-dark btn-lg button1">
+          <p class="free-consultation">Free Consultation</p>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <!-- INTRO -->
+    <div class="intro">
+      <h1>Design solutions made easy</h1>
+      <p class="intro-p">
+        With over ten years of experience in various design disciplines, I'm
+        your one-stop shop for your design needs.
+      </p>
+    </div>
+
+    <!-- GRID -->
+    <div class="container-fluid vertical-center main-grid">
+      <div class="row main-row">
+        <!-- first block -->
+        <div class="col col-css col-12 col-md-6 col-lg-4 first-block">
+          <img
+            class="img-grid"
+            src="./assets/pattern-graphic-design.svg"
+            alt=" "
+          />
+          <span> Graphic Design</span>
+        </div>
+        <!-- second block -->
+        <div class="col main-2-col col-12 col-md-6 col-lg-4 second-block">
+          <div class="row">
+            <div class="col col-css second-block-1">
+              <img class="img-grid" src="./assets/pattern-ui-ux.svg" alt=" " />
+              <span> UI/UX</span>
+            </div>
+            <div class="col col-css second-block-2">
+              <img class="img-grid" src="./assets/pattern-apps.svg" alt=" " />
+              <span> Apps</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-css second-block-bottom">
+              <img
+                class="img-grid"
+                src="./assets/pattern-illustrations.svg"
+                alt=" "
+              />
+              <span> Illustrations</span>
+            </div>
+          </div>
+        </div>
+        <!-- third block -->
+        <div class="col last-col col-12 col-md-12 col-lg-4 third-block">
+          <div class="row row-3-1">
+            <div class="col col-css third-block-1 col-12">
+              <img
+                class="img-grid"
+                src="./assets/pattern-photography.svg"
+                alt=" "
+              />
+              <span> Photography</span>
+            </div>
+          </div>
+          <div class="row row-3-2">
+            <div class="col col-css third-block-2 col-12">
+              <img
+                class="img-grid mg-img"
+                src="./assets/pattern-motion-graphics.svg"
+                alt=" "
+              />
+              <span> Motion Graphics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROFILE BLOCK -->
+    <div class="container profile-block">
+      <div class="row profile-row">
+        <div class="col col-12 col-md-5 col-lg-5 col-pic">
+          <img
+            class="profile-pic"
+            src="./assets/image-amy.webp"
+            alt="profile-photo"
+          />
+        </div>
+        <div class="col col-12 col-md-7 col-lg-7 profile-text">
+          <h2>I'm Amy, and I'd love to work on your next project</h2>
+          <p class="profile-main">
+            I love working with others to create beautiful design solutions.
+            I've designed everything from brand illustrations to complete mobile
+            apps. I'm also handy with a camera!
+          </p>
+          <button class="btn btn-dark btn-lg button2">
+            <p class="free-consultation">Free Consultation</p>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MY WORKS -->
+    <h3 class="mywork-heading">My Work</h3>
+    <div class="mywork" name="mywork">
+      <div>
+        <img class="work-image" src="./assets/image-slide-3.jpg" alt="" />
+      </div>
+      <div>
+        <img class="work-image" src="./assets/image-slide-4.jpg" alt="" />
+      </div>
+      <div>
+        <img class="work-image" src="./assets/image-slide-5.jpg" alt="" />
+      </div>
+      <div>
+        <img class="work-image" src="./assets/image-slide-1.jpg" alt="" />
+      </div>
+      <div>
+        <img class="work-image" src="./assets/image-slide-2.jpg" alt="" />
+      </div>
+    </div>
+    <!-- <button type="button" class="btn btn-dark carousel-button-left slick-prev">
+      <img src="./assets/icon-arrow-left.svg" alt="arrow-left" />
+    </button>
+    <button type="button" class="btn btn-dark carousel-button-right slick-next">
+      <img src="./assets/icon-arrow-right.svg" alt="arrow-right" />
+    </button> -->
+
+    <!-- END BLOCK -->
+    <div class="container contact-me">
+      <div class="row">
+        <div class="col-lg-8 cl-md-12 book-a-call">
+          <h2>Book a call with me</h2>
+          <p>
+            I'd love to have a chat to see how I can help you. The best first
+            step is for us to discuss your project during a free consultation.
+            Then we can move forward from there.
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-12 button">
+          <button class="btn btn-dark btn-lg button2">
+            <p class="free-consultation">Free Consultation</p>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <!-- SLICK JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script></script>
+    <!-- JS link -->
+    <script src="./app.js"></script>
+  </body>
+  <footer>
+    <nav class="navbar navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.svg" alt="logo" />
+        </a>
+        <button class="btn btn-dark btn-lg button1">
+          <p class="free-consultation">Free Consultation</p>
+        </button>
+      </div>
+    </nav>
+  </footer>
+</html>
+
+<!-- <div class="col last-col">
+  <div class="col col-css third-block-1">
+    <img class="img-grid" src="./assets/pattern-photography.svg" alt=" " />
+    <span> Photography</span>
+  </div>
+  <div class="col col-css third-block-2">
+    <img class="img-grid" src="./assets/pattern-motion-graphics.svg" alt=" " />
+    <span> Motion Graphics</span>
+  </div>
+</div> -->
+<!-- 
+
+1.How to make grid fully responsive?
+
+
+
+
+ -->

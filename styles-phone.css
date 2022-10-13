@@ -1,0 +1,153 @@
+@media (max-width: 570px) {
+  /* NAVBAR */
+  .navbar-brand {
+    width: fit-content;
+  }
+  .navbar-brand img {
+    width: 44px;
+  }
+  .navbar .button1 {
+    width: 176px;
+    height: 44px;
+    padding: 0;
+  }
+
+  /* INTRO */
+  .intro h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  /* GRID */
+
+  .first-block {
+    width: 99%;
+    height: 364px;
+    margin-bottom: 24px;
+  }
+  .second-block,
+  .third-block {
+    width: 99%;
+  }
+  .second-block-1 {
+    margin-right: 24px;
+  }
+  .second-block-bottom {
+    margin-top: 24px;
+  }
+  .second-block {
+    margin-bottom: 24px;
+  }
+  .row-3-2 {
+    margin-top: 24px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  .third-block-2 {
+    margin-left: 0;
+  }
+  /* PROFILE */
+ .profile-block{
+  margin-bottom: 15vh;
+ }
+  .profile-row {
+    margin-top: 20vh;
+  
+  }
+  .profile-pic {
+    margin-left: 0;
+  }
+  .profile-row {
+    margin: 0;
+    padding: 0;
+  }
+  .profile-text {
+    margin: 10vh 0 0 0;
+    text-align: center;
+  }
+  .profile-text h2{
+    font-size: 26px;
+    line-height: 33px;
+  }
+
+  /* MY WORK */
+  .mywork-heading{
+    margin-bottom: 5vh;
+  }
+  .mywork .work-image{
+    width: 60vw;
+    margin: 0 10px 25px 10px;
+  }
+  .slick-prev {
+    left: 28vw;
+  
+  }
+  .slick-next {
+    right: 28vw;
+
+  }
+  /* FINAL BLOCK */
+.contact-me{
+  margin-top:30vh;
+  padding: 49px 24px;
+}
+.book-a-call h2{
+  font-size: 26px;
+line-height: 33px;
+}
+  }
+  /* .container-fluid {
+    margin: 0;
+  }
+  .navbar-brand img {
+    width: 48px;
+  }
+  .navbar button {
+    width: 176px;
+    height: 44px;
+  }
+  /* INTRO */
+  /* .intro {
+    padding: 0 5vw;
+  }
+  .intro h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .intro-p {
+    padding: 1% 5% 2%;
+  }
+  /* GRID */
+  /* .row-3-1 {
+    width: 100%;
+  }
+  .row-3-2 {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+  .third-block-2 {
+    margin: 0;
+  }
+  .main-2-col {
+    padding: 0;
+  }
+  .first-block,
+  .second-block-bottom,
+  .third-block-1,
+  .third-block-2 {
+    margin-bottom: 24px;
+  }
+  .last-col {
+    padding: 0;
+  }
+  /* PROFILE */
+  /* .profile-block {
+    text-align: center;
+    margin-bottom: 20%;
+  }
+  .profile-pic {
+    margin: 15% 0 7% 0;
+  }
+  /* MY WORK */
+}

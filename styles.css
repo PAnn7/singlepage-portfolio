@@ -1,0 +1,241 @@
+body {
+  background-color: #fff7f0;
+  /* margin: auto 10vw; */
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 70px;
+  margin-bottom: 3%;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 51px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 40px;
+}
+p {
+  font-size: 1.125rem;
+  color: #7a746e;
+}
+
+/* NAV-BAR */
+.container-fluid {
+  padding: 0;
+  margin: 0 13vw;
+}
+.navigation {
+  margin: 2.2vw auto;
+}
+.navbar-brand {
+  width: 4rem;
+}
+.btn {
+  border-radius: 28px;
+  width: 228px;
+  height: 56px;
+  border-width: 0;
+}
+.free-consultation {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* INTRO */
+.intro {
+  padding: 2.25em 16%;
+  text-align: center;
+}
+.intro-p {
+  padding: 0 10vw 5%;
+}
+
+/* GRID */
+.main-grid {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+/* .main-grid-width {
+  width: fit-content;
+} */
+.main-row {
+  margin: 0;
+}
+.first-block {
+  background-color: #755cde;
+  height: 364px;
+  width: 354px;
+  margin-right: 1.5vw;
+}
+.second-block {
+  width: 354px;
+  margin-right: 1.5vw;
+}
+.third-block {
+  width: 354px;
+}
+.second-block-1 {
+  background-color: #f6a560;
+  height: 182px;
+  margin-right: 1.5vw;
+}
+.second-block-2 {
+  background-color: #f39e9e;
+}
+.second-block-bottom {
+  background-color: #eb7565;
+  height: 158px;
+  margin-top: 1.5vw;
+}
+.third-block-1 {
+  background-color: #61c4b7;
+  height: 182px;
+}
+.third-block-2 {
+  background-color: #552049;
+  height: 158px;
+  margin-top: 1.5vw;
+}
+.col-css {
+  border-radius: 8px;
+  position: relative;
+}
+.col-css > span {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  font-size: 24px;
+  line-height: 30px;
+}
+.col-css > .img-grid {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+/* PROFILE BLOCK */
+
+.profile-block {
+  margin: 5vw auto;
+  padding: 0;
+}
+.profile-row {
+  justify-content: center;
+  padding: 0 7vw;
+}
+.col-pic {
+  padding: 0;
+  text-align: center;
+}
+.profile-pic {
+  width: 445px;
+  max-width: 100%;
+  display: inline-block;
+}
+.profile-text {
+  padding: 4% 4vw;
+  height: fit-content;
+}
+.profile-text h2,
+.profile-text .profile-main {
+  margin-bottom: 8vh;
+}
+
+.profile-text button {
+  background-color: #eb7565;
+  border: none;
+}
+
+/* MY WORKS */
+
+.mywork {
+  padding: 3% 0;
+}
+.mywork-heading {
+  text-align: center;
+  font-weight: 700;
+}
+
+.mywork .work-image {
+  width: 40vw;
+  border-radius: 8px;
+  margin: 0 20px;
+}
+
+.carousel-button-left,
+.carousel-button-right {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.carousel-button-left {
+  position: absolute;
+  bottom: -50px;
+  left: 42vw;
+}
+.carousel-button-right {
+  position: absolute;
+  bottom: -50px;
+  right: 42vw;
+}
+
+/* END BLOCK */
+.contact-me {
+  height: 320px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 7% auto;
+  width: 73vw;
+}
+.contact-me button {
+  background-color: #eb7565;
+  border: none;
+}
+.contact-me .button {
+  text-align: center;
+  padding: 7vw 0;
+  height: fit-content;
+}
+
+.contact-me {
+  padding: 5% 5%;
+}
+.book-a-call {
+  padding-right: 5vw;
+}
+.book-a-call h2,
+.book-a-call p {
+  color: #fff;
+}
+.book-a-call h2 {
+  margin-bottom: 5%;
+}
+/* BUTTONS */
+.button1:hover {
+  background-color: #755cde;
+}
+.button2 {
+  background-color: #eb7565;
+  border: none;
+}
+.button2:hover {
+  background-color: #f6a560;
+}
